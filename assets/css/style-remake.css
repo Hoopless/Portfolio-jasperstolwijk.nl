@@ -315,6 +315,14 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   height: auto;
 }
 
+.no-center{
+  text-align: left;
+}
+
+.hobbies{
+  grid-gap: 50px;
+}
+
 /* Media Quarties  */
 @media(min-width: 1600px){
   .twitter-tweets {
