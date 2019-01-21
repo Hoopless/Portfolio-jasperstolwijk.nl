@@ -299,7 +299,7 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
 }
 
 
-.personalities-wrapper{
+.personapersonalities-wrapper{
   position: relative;
   margin: 0 19rem;
   text-align: center;
@@ -312,7 +312,6 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
 
 .aboutme img{
   border-radius: 16px;
-  width:100%;
   height: auto;
 }
 
@@ -329,10 +328,21 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .newyear{
+  .small-img{
+    max-width: 300px;
+  }
+
+  .personapersonalities-wrapper, .aboutme-wrapper{
+    
+    margin: 0;
+    
+  }
+  
+
+  .newyear, .grid-box-2{
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .portfolio-box{
