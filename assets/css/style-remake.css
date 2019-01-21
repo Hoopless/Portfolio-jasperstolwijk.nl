@@ -53,6 +53,10 @@ hr{
   grid-template-columns: repeat(2, 1fr);
 }
 
+.small-img{
+  max-width: 550px;
+}
+
 
 /* Navigation */
 .nav {
